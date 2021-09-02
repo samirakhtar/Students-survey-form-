@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="C:\Users\samir\Desktop\styles.css">
+
+    </head>
+    <body>
+      <div class="container">
+        <header class="header">
+          <h1 id="title" class="text-center">Student Survey form</h1>
+          <p id="description" class="description text-center">Thank you for taking the part in this survey</p>
+          
+        </header>
+     <form id="survey-form">
+       <div class="form-group">
+         <label id="name-label" for="name" id="name-label">Name</label>
+         <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required>
+       </div>
+       <div class="from-group">
+         <label id"email-label" for="email" id="email-label">Email</label>
+         <input type="email" name="email" id="email" class="from-control"
+                placeholder="Enter your Email" required>
+       </div>
+       <div>
+         <label id="number-label" for="number" id="number-label">Age
+           <span clss="clue"></span>
+         </label>
+         <input type="number" number="age" id ="number" min="10" max="99" class="form-control" placeholder="Age">
+       </div>
+       <div>
+         <p> what kind of mindset person you are?</p>
+         <select id="dropdown" name="mindset"
+                                     class="form-control" required>
+           <option disabled selected value>Select the current option </option>
+           <option value="The Social Mindset">The Social Mindset</option>
+           <option value="The Growth Mindset">The Growth Mindset</option>
+           <option value="The Fear Mindset">The Fear Mindset</option>
+           <option value="The Lazy Mindset">The Lazy Mindset</option>
+           <option value="The Envy Mindset">The Envy Mindset</option>
+           <option value="The Business Mindset">The Business Mindset</option>
+           <option value="The Dreamer Mindset">The Dreamer Mindset</option>
+         </select>
+       </div>
+       <div class="form-group">
+                   <p>what would advice people to be like? </p>
+         <label>
+           <input name="user-recommend" value="To be dreamer" type="radio"  class="input-radio"checked>
+           To be dreamer    
+         </label>
+         <br>
+         <label>
+           <input name="user-recommend" value="Go according to your family advice" type="radio"
+                  class="input-radio"checked>Go according to your family advice
+         </label>
+         <br>
+              <label>
+                <input name="user-recommend" value="Not sure" value="Not sure" type="radio" 
+                       class="input-radio"checked> Not sure </label>
+                   </div>
+       <div class="form-group">
+         <p>what is the best phase of a student life?</p>
+         <select id="most-like" name="mostlike" class="form-control" required>
+           <option disabled selected value> Select an option</option>
+           <option value="school life"> school life
+             </option>
+                          
+           <option value=" High school life"> High school life
+           </option>
+                           
+           <option value=" collage life">
+             Collage life
+                           </option>
+         </select>
+       </div>
+       <div class="form-group">
+         <p> 
+            What would you suggest a student to chosse as a life careers?
+           <span class="clue"></span> 
+         </p>
+         <label>
+           <input name="prefer" value="Legal Careers" type="checkbox" class="input-checkbox">Legal Careers </label><br>
+           <input name="prefer" value="Technology Careers" type="checkbox" class="input-checkbox">Technology Careers</label><br>
+           <input name="prefer" value="Finance Careers" type="checkbox" class="input-checkbox">Finance Careers</label><br>
+           <input name="prefer" value="Marketing Careers" type="checkbox" class="input-checkbox">Marketing Careers</label><br>
+           <input name="prefer" value="Operations Careers" type="checkbox" class="input-checkbox">Operations Careers</label>
+            
+       </div>
+  <div class="form-group">
+    <p>Any thing you want to add in this from your side</p>
+    <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>
+    
+  </div>
+  <div class="form-group">
+    <button type="submit" id="submit" class="submit-button">Submit</button>
+     
+  </div>
+  </form>
+         
+  </div>
+    </body>
+      
+    </html>
